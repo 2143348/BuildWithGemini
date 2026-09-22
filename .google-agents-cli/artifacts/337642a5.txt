@@ -1,0 +1,1 @@
+<a2a_datapart_json>{"kind": "data", "metadata": {"mimeType": "application/json+a2ui"}, "data": {"beginRendering": {"root": "card_root", "surfaceId": "autumn_jacket_rec"}}}</a2a_datapart_json>

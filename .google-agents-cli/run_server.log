@@ -1,0 +1,351 @@
+=== Starting server at 2026-09-22T11:00:52.660600+00:00 ===
+Command: /config/.gemini/antigravity/scratch/weather-agent/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/.gemini/antigravity/scratch/weather-agent
+=== Started server process 895005 ===
+2026-09-22 11:00:56,323 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-22 11:00:56,325 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/.gemini/antigravity/scratch/weather-agent
+2026-09-22 11:00:56,326 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/.gemini/antigravity/scratch/weather-agent
+/config/.gemini/antigravity/scratch/weather-agent/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/.gemini/antigravity/scratch/weather-agent/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [895005]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:38076 - "GET / HTTP/1.1" 404 Not Found
+2026-09-22 11:00:57,073 - INFO - local_storage.py:65 - Creating local session service at /config/.gemini/antigravity/scratch/weather-agent/app/.adk/session.db
+2026-09-22 11:00:57,129 - INFO - api_server.py:1110 - New session created: 11057d75-cc8d-4a6e-91f4-9a02c30bb8e7
+INFO:     127.0.0.1:38078 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-22 11:00:57,146 - INFO - envs.py:83 - Loaded .env file for app at /config/.gemini/antigravity/scratch/weather-agent/.env
+INFO:     127.0.0.1:38094 - "POST /run_sse HTTP/1.1" 200 OK
+/config/.gemini/antigravity/scratch/weather-agent/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-22 11:00:58,703 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-22 11:00:59,768 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-22 11:00:59,811 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-22 11:01:00,518 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-22 11:01:00,731 - INFO - runners.py:2181 - Closing runner...
+2026-09-22 11:01:00,732 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [895005]
+=== Starting server at 2026-09-22T11:10:59.022605+00:00 ===
+Command: /config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+=== Starting server at 2026-09-22T11:11:07.808648+00:00 ===
+Command: /config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+=== Started server process 897749 ===
+2026-09-22 11:11:10,999 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-22 11:11:11,001 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+2026-09-22 11:11:11,001 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [897749]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:46474 - "GET / HTTP/1.1" 404 Not Found
+2026-09-22 11:11:11,760 - INFO - local_storage.py:65 - Creating local session service at /config/.gemini/antigravity/scratch/divis-verve-and-vogue/app/.adk/session.db
+2026-09-22 11:11:11,816 - INFO - api_server.py:1110 - New session created: e79b0123-3898-4e97-be65-1a6d1fb2e659
+INFO:     127.0.0.1:46476 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-22 11:11:11,830 - INFO - envs.py:83 - Loaded .env file for app at /config/.gemini/antigravity/scratch/divis-verve-and-vogue/.env
+INFO:     127.0.0.1:46490 - "POST /run_sse HTTP/1.1" 200 OK
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-22 11:11:17,032 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-22 11:11:18,013 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-22 11:11:18,053 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-22 11:11:19,028 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-22 11:11:19,259 - INFO - runners.py:2181 - Closing runner...
+2026-09-22 11:11:19,259 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [897749]
+=== Starting server at 2026-09-22T11:12:18.619609+00:00 ===
+Command: /config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/bin/adk api_server --host 127.0.0.1 --port 18081 --reload_agents --no-reload .
+CWD: /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+=== Started server process 898073 ===
+2026-09-22 11:12:20,039 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-22 11:12:20,040 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+2026-09-22 11:12:20,040 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [898073]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18081 (Press CTRL+C to quit)
+INFO:     127.0.0.1:47424 - "GET / HTTP/1.1" 404 Not Found
+2026-09-22 11:12:20,751 - INFO - local_storage.py:65 - Creating local session service at /config/.gemini/antigravity/scratch/divis-verve-and-vogue/app/.adk/session.db
+2026-09-22 11:12:20,772 - INFO - api_server.py:1110 - New session created: ef490dca-7f9e-43e9-bffe-cad0ac954371
+INFO:     127.0.0.1:47434 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-22 11:12:20,787 - INFO - envs.py:83 - Loaded .env file for app at /config/.gemini/antigravity/scratch/divis-verve-and-vogue/.env
+INFO:     127.0.0.1:47446 - "POST /run_sse HTTP/1.1" 200 OK
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-22 11:12:22,847 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-22 11:12:24,551 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-22 11:12:24,575 - WARNING - _tool_caller.py:757 - Tool 'memory_tool:store_memory' not found.
+Available tools: get_product_catalog, search_fashion_trends, generate_caption_and_hashtags
+
+Possible causes:
+  1. LLM hallucinated the function name - review agent instruction clarity
+  2. Tool not registered - verify agent.tools list
+  3. Name mismatch - check for typos
+
+Suggested fixes:
+  - Review agent instruction to ensure tool usage is clear
+  - Verify tool is included in agent.tools list
+  - Check for typos in function name
+2026-09-22 11:12:24,598 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-22 11:12:26,194 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-22 11:12:26,405 - INFO - runners.py:2181 - Closing runner...
+2026-09-22 11:12:26,405 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [898073]
+=== Starting server at 2026-09-22T11:17:06.862868+00:00 ===
+Command: /config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+=== Started server process 899748 ===
+2026-09-22 11:17:08,404 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-22 11:17:08,405 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+2026-09-22 11:17:08,406 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [899748]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:60194 - "GET / HTTP/1.1" 404 Not Found
+2026-09-22 11:17:08,999 - INFO - local_storage.py:65 - Creating local session service at /config/.gemini/antigravity/scratch/divis-verve-and-vogue/app/.adk/session.db
+2026-09-22 11:17:09,018 - INFO - api_server.py:1110 - New session created: 79a010fc-0157-44f4-b130-27d823158a6b
+INFO:     127.0.0.1:60200 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-22 11:17:09,036 - INFO - envs.py:83 - Loaded .env file for app at /config/.gemini/antigravity/scratch/divis-verve-and-vogue/.env
+INFO:     127.0.0.1:60204 - "POST /run_sse HTTP/1.1" 200 OK
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-22 11:17:11,588 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-22 11:17:12,346 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-22 11:17:13,045 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-22 11:17:14,458 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-22 11:17:14,645 - INFO - runners.py:2181 - Closing runner...
+2026-09-22 11:17:14,645 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [899748]
+=== Starting server at 2026-09-22T11:17:17.695207+00:00 ===
+Command: /config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/bin/adk api_server --host 127.0.0.1 --port 18081 --reload_agents --no-reload .
+CWD: /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+=== Started server process 899826 ===
+2026-09-22 11:17:19,233 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-22 11:17:19,233 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+2026-09-22 11:17:19,234 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [899826]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18081 (Press CTRL+C to quit)
+INFO:     127.0.0.1:50194 - "GET / HTTP/1.1" 404 Not Found
+2026-09-22 11:17:19,828 - INFO - local_storage.py:65 - Creating local session service at /config/.gemini/antigravity/scratch/divis-verve-and-vogue/app/.adk/session.db
+2026-09-22 11:17:19,845 - INFO - api_server.py:1110 - New session created: 8ddb687e-f5c1-4a42-9c41-3001bb9da58b
+INFO:     127.0.0.1:50196 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-22 11:17:19,862 - INFO - envs.py:83 - Loaded .env file for app at /config/.gemini/antigravity/scratch/divis-verve-and-vogue/.env
+INFO:     127.0.0.1:50208 - "POST /run_sse HTTP/1.1" 200 OK
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-22 11:17:22,417 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-22 11:17:23,522 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-22 11:17:24,239 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-22 11:17:24,978 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-22 11:17:25,129 - INFO - runners.py:2181 - Closing runner...
+2026-09-22 11:17:25,130 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [899826]
+=== Starting server at 2026-09-22T11:19:10.604749+00:00 ===
+Command: /config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+=== Started server process 900461 ===
+2026-09-22 11:19:12,153 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-22 11:19:12,153 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+2026-09-22 11:19:12,154 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [900461]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:42662 - "GET / HTTP/1.1" 404 Not Found
+2026-09-22 11:19:12,734 - INFO - local_storage.py:65 - Creating local session service at /config/.gemini/antigravity/scratch/divis-verve-and-vogue/app/.adk/session.db
+2026-09-22 11:19:12,752 - INFO - api_server.py:1110 - New session created: ce2a4450-18fd-4cc7-ae69-9577cc7d1c40
+INFO:     127.0.0.1:42674 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-22 11:19:12,764 - INFO - envs.py:83 - Loaded .env file for app at /config/.gemini/antigravity/scratch/divis-verve-and-vogue/.env
+INFO:     127.0.0.1:42686 - "POST /run_sse HTTP/1.1" 200 OK
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-22 11:19:15,318 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-22 11:19:16,914 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-22 11:19:17,759 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-22 11:19:18,603 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-22 11:19:18,755 - INFO - runners.py:2181 - Closing runner...
+2026-09-22 11:19:18,755 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [900461]
+=== Starting server at 2026-09-22T11:20:16.874826+00:00 ===
+Command: /config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/bin/adk api_server --host 127.0.0.1 --port 18081 --reload_agents --no-reload .
+CWD: /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+=== Started server process 900788 ===
+2026-09-22 11:20:18,390 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-22 11:20:18,391 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+2026-09-22 11:20:18,393 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [900788]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18081 (Press CTRL+C to quit)
+INFO:     127.0.0.1:48206 - "GET / HTTP/1.1" 404 Not Found
+2026-09-22 11:20:19,008 - INFO - local_storage.py:65 - Creating local session service at /config/.gemini/antigravity/scratch/divis-verve-and-vogue/app/.adk/session.db
+2026-09-22 11:20:19,025 - INFO - api_server.py:1110 - New session created: 99575227-ea1e-4fe0-ac4b-73d74bbe879a
+INFO:     127.0.0.1:48208 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-22 11:20:19,039 - INFO - envs.py:83 - Loaded .env file for app at /config/.gemini/antigravity/scratch/divis-verve-and-vogue/.env
+INFO:     127.0.0.1:48218 - "POST /run_sse HTTP/1.1" 200 OK
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-22 11:20:21,903 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-22 11:20:23,768 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-22 11:20:24,147 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-22 11:20:26,152 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-22 11:20:26,476 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-22 11:20:30,661 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-22 11:20:30,881 - INFO - runners.py:2181 - Closing runner...
+2026-09-22 11:20:30,881 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [900788]
+=== Starting server at 2026-09-22T11:28:43.748139+00:00 ===
+Command: /config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+=== Started server process 903287 ===
+2026-09-22 11:28:45,334 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-22 11:28:45,334 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+2026-09-22 11:28:45,335 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [903287]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:58756 - "GET / HTTP/1.1" 404 Not Found
+2026-09-22 11:28:45,877 - INFO - local_storage.py:65 - Creating local session service at /config/.gemini/antigravity/scratch/divis-verve-and-vogue/app/.adk/session.db
+2026-09-22 11:28:45,898 - INFO - api_server.py:1110 - New session created: c0d87e7b-5302-4137-9a75-d9dfb3676f0a
+INFO:     127.0.0.1:58770 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-22 11:28:45,912 - INFO - envs.py:83 - Loaded .env file for app at /config/.gemini/antigravity/scratch/divis-verve-and-vogue/.env
+INFO:     127.0.0.1:58778 - "POST /run_sse HTTP/1.1" 200 OK
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-22 11:28:48,239 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-22 11:28:50,011 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-22 11:28:50,053 - INFO - models.py:6243 - AFC is enabled with max remote calls: 10.
+2026-09-22 11:28:50,054 - WARNING - models.py:6247 - Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+2026-09-22 11:28:55,067 - INFO - _client.py:1025 - HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/qwiklabs-gcp-01-d2704f34ae2b/locations/global/publishers/google/models/gemini-3.1-flash-lite-image:generateContent "HTTP/1.1 200 OK"
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/app/agent.py:279: RuntimeWarning: coroutine 'Context.save_artifact' was never awaited
+  tool_context.save_artifact(filename=filename, artifact=artifact_part)
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+2026-09-22 11:28:55,547 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-22 11:28:57,181 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-22 11:28:57,343 - INFO - runners.py:2181 - Closing runner...
+2026-09-22 11:28:57,343 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [903287]
+=== Starting server at 2026-09-22T11:33:13.485335+00:00 ===
+Command: /config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+=== Started server process 904495 ===
+2026-09-22 11:33:14,932 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-22 11:33:14,933 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+2026-09-22 11:33:14,933 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [904495]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:49268 - "GET / HTTP/1.1" 404 Not Found
+2026-09-22 11:33:15,616 - INFO - local_storage.py:65 - Creating local session service at /config/.gemini/antigravity/scratch/divis-verve-and-vogue/app/.adk/session.db
+2026-09-22 11:33:15,634 - INFO - api_server.py:1110 - New session created: 5f1458cc-9c57-411d-88cd-4a9815c418ad
+INFO:     127.0.0.1:49284 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-22 11:33:15,647 - INFO - envs.py:83 - Loaded .env file for app at /config/.gemini/antigravity/scratch/divis-verve-and-vogue/.env
+INFO:     127.0.0.1:49292 - "POST /run_sse HTTP/1.1" 200 OK
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-22 11:33:18,194 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-22 11:33:21,393 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-22 11:33:21,537 - INFO - runners.py:2181 - Closing runner...
+2026-09-22 11:33:21,537 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [904495]
+=== Starting server at 2026-09-22T11:34:55.499841+00:00 ===
+Command: /config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+=== Started server process 905014 ===
+2026-09-22 11:34:57,003 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-22 11:34:57,004 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+2026-09-22 11:34:57,004 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/.gemini/antigravity/scratch/divis-verve-and-vogue
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [905014]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:47754 - "GET / HTTP/1.1" 404 Not Found
+2026-09-22 11:34:57,630 - INFO - local_storage.py:65 - Creating local session service at /config/.gemini/antigravity/scratch/divis-verve-and-vogue/app/.adk/session.db
+2026-09-22 11:34:57,650 - INFO - api_server.py:1110 - New session created: 655e793a-bae6-48c5-8fe9-26c43e77d270
+INFO:     127.0.0.1:47756 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-22 11:34:57,667 - INFO - envs.py:83 - Loaded .env file for app at /config/.gemini/antigravity/scratch/divis-verve-and-vogue/.env
+INFO:     127.0.0.1:47760 - "POST /run_sse HTTP/1.1" 200 OK
+/config/.gemini/antigravity/scratch/divis-verve-and-vogue/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-22 11:35:00,205 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-22 11:35:02,023 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-22 11:35:02,749 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-22 11:35:10,996 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-22 11:35:11,167 - INFO - runners.py:2181 - Closing runner...
+2026-09-22 11:35:11,167 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [905014]
